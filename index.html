@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Ajin's Web</title>
+    <style>
+        *{font-family: "맑은 고딕",Arial, Helvetica, sans-serif}
+        header h1{display: inline; letter-spacing: 3px; color: #c57b7bf6; position: absolute; padding: 25px;}
+        header img{padding: 5px;}
+        ul{list-style: none;}
+        a{text-decoration: none;}
+        nav ul {
+            text-align: center; border-top: 3px solid #DEB887;
+            border-bottom: 3px solid#DEB887; padding: 15px 10px;   
+        }
+        nav ul li{
+            display: inline;
+            padding: 20px 100px;
+            letter-spacing: 5px;
+        }
+        nav ul li:hover{
+            background-color: #866943e7;
+        }
+        nav li a:hover{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./images/my images/logo.png" width="150" height="120" alt="logo">
+        <h1> AJIN's Gallery </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div id="photo">
+            <img src="./images/my images/mainimage.jpg" width="300" height="200" alt="mainimage">
+            <div>
+                <br>
+            <div id="about">
+                <h2>About</h2>
+                <h3>AJIN's Gallery
+                <br>since 2017</h3>
+                <h2>Playlist</h2>
+                <audio autoplay loop src="./media/my media/media/music01.mp3" controls></audio>
+                <h2>My Travel Video</h2>
+                <video width="50%" height="50%" controls autoplay loop src="./media/my media/media/movie.mp4"" ></video>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Pa5Rff7L5OM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <iframe src="start.html" frameborder="0" width="70%" height="240px"></iframe>
+                    지원되지 않는 브라우저입니다.
+            </div>
+        <div id="profile">
+            <h2>Profile</h2>
+            <table border="1">
+                <tr>
+                    <th>일자</th>
+                    <th>내용</th>
+                    <th>구분</th>
+                </tr>
+                <tr>
+                    <td>2017.03~2020.02</td>
+                    <td>데레사여자고등학교</td>
+                    <td>졸업</td>
+                </tr>
+                <tr>
+                    <td>20.3~20.7</td>
+                    <td>도서관 봉사활동</td>
+                    <td>도서정리</td>
+                </tr>
+                <tr>
+                    <td>현재(2020.03~)</td>
+                    <td>동아대학교 경영정보학과 재학</td>
+                    <td>2학년</td>
+                </tr>
+            </table>
+        </div>
+        <div id="portfolio">
+            <h2>Portfolio</h2>
+            <h3>-SPRING-</h3>
+            <img src="./images/my images/spring01.jpg" width="300" height="200" alt="spring01">
+            <h3>-SUMMER-</h3>
+            <img src="./images/my images/summer01.jpg" width="300" height="200" alt="summer01">
+            <h3>-FALL-</h3>
+            <img src="./images/my images/fall01.jpg" width="300" height="200" alt="fall01">
+            <h3>-WINTER-</h3>
+            <img src="./images/my images/winter01.jpg" width="300" height="200" alt="winter01">
+        </div>
+        <div>
+        <div id="contact">
+            <h2>Contact</h2>
+            <h3>Contact : kaj0529@naver.com</h3>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+    <div id="link">
+            <!-- 문서간의 이동 -->
+            <a href="http://www.donga.ac.kr" target="_blank">동아대학교</a><br>
+            <a href="http://www.naver.com" target="_self">네이버</a><br>
+            <a href="start.html">start 페이지이동</a><br>
+            <!-- 문서내 이동 -->
+            <a href="#photo">처음 사진으로 이동</a>
+    </div>
+    <br><br><br>
+    <div id="login">
+        <form action="#" method="POST">
+            아이디 : <input type="text" name="name"> <br>
+            비밀번호 : <input type="password" name="pass" id="pass"> <br>
+            <input type="submit" value="확인">
+            <input type="reset" value="취소">
+        </form>
+    </div>
+    </section>
+    <br>
+    <footer>&copy; Ajin</footer>
+</body>
+</html>
