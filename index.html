@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Welcome to Ajin's Web</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+    body{width: 950px; margin : 0 auto;}
+    *{font-family: "맑은 고딕",Arial, Helvetica, sans-serif}
+    header h1{display: inline; letter-spacing: 3px; color: #c57b7bf6; position: absolute; padding: 25px;}
+    header img{padding: 3px;}
+    ul{list-style: none;}
+    a{text-decoration: none;}
+    nav ul {
+        text-align: center; border-top: 3px solid #b49770e7;
+        border-bottom: 3px solid#b49770e7; padding: 15px 10px;   
+    }
+    nav ul li{
+        color: rgb(109, 109, 109);
+        display: inline;
+        padding: 20px 70px;
+        letter-spacing: 5px;
+    }
+    nav ul li:hover{
+        color: white;
+        background-color: #866943e7;
+    }
+    nav li a:hover{
+        color:white;
+    }
+
+    }
+    article{
+        display: flex;
+    }
+    aside{
+        display: flex;
+        flex-direction:column;
+        background-color:#d4bdbce7 ;
+        border:4px solid rgb(202, 183, 171);
+    }
+
+</style>
+</head>
+
+<body>
+    <header>
+        <img src="./images/my images/logo.png" width="150" height="120" alt="logo">
+        <h1><b>AJIN's Gallery</b></h1>
+    </header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="w3-left w3-container w3-margin-top w3-margin-bottom" style="max-width:700px">
+    <article class="photo" class="w3-row w3-large w3-margin-top"></article>
+    <div style="text-align: center;border:4px solid rgb(199, 184, 175) ">
+    <h3 class="w3-text-gray"><b>#ME</b></h3>
+    <img src="./images/my images/myphoto.jpg" width="400" height="400" alt="myphoto" >
+    <a href="https://www.instagram.com/kwonajin_/"><h2 class="w3-text-gray"><b>@kwonajin_</b></h2></a>
+    <br>
+    </div>
+    <br>
+
+    <div style="border:4px solid rgb(211, 198, 195)">
+    <article class="photo" class="w3-row w3-large w3-margin-top"></article>
+    <h3 class="w3-text-gray"><b>#Photo / Travel</b></h3>
+    <img src="./images/my images/mainimage.jpg" width="300" height="200" alt="mainimage">
+    <img src="./images/my images/mainimage02.jpg" width="300" height="200" alt="mainimage02">
+    <br><br>
+    <hr style="border:2px solid rgb(211, 198, 195)">
+    
+    <article class="about"><h3></h3></article>
+    <h3 class="w3-text-gray"><b>#Video</b></h3>
+    <video width="300" height="50%" controls autoplay loop src="./media/my media/media/movie.mp4" ></video>
+    <iframe width="300" height="170" src="https://www.youtube.com/embed/Pa5Rff7L5OM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br><br>
+    <hr style="border:2px solid rgb(211, 198, 195)">
+
+    <article class="playlist"></article>
+    <h3 class="w3-text-gray"><b>#Playlist</b></h3>
+    <img src="./images/my images/playlist.gif" width="300" height="200" alt="playlist">
+    <audio autoplay loop src="./media/my media/media/music01.mp3" controls></audio>
+    <br><br>
+    <hr style="border:2px solid rgb(211, 198, 195)">
+
+    <article class="profile" > 
+    <div style="flex-direction: column;">
+    <h3 class="w3-text-gray"><b>#Profile</b></h3>
+    <table class="w3-table-all w3-hoverable">
+        <tr class="w3-pale-red">
+            <th>일자</th>
+            <th>내용</th>
+            <th>구분</th>
+        </tr>
+        <tr>
+            <td>2017.03~2020.02</td>
+            <td>데레사여자고등학교</td>
+            <td>졸업</td>
+        </tr>
+        <tr>
+            <td>현재(2020.03~)</td>
+            <td>동아대학교 경영정보학과 재학</td>
+            <td>2학년</td>
+        </tr>
+    </table>
+    </div>
+    <br><br>
+    </article>
+    </div>
+</section>
+<div style="line-height:110%">
+    <br>
+</div>
+
+<aside class="right" class="w3-container w3-cell">
+    <div class="login">
+        <center><h2 class="w3-text-brown">Log In</h2>
+        <form action="#">
+            ID <br><input class="w3-input1" type="text" name="id"> <br/><br>
+            PASSWORD <br><input class="w3-input1" type="password" name="pass"> <br/><br/>
+            <input class="w3-btn w3-pale-red" type="submit" value="login"/>
+            <input class="w3-btn w3-sand" type="reset" value="reset"/><br/><br>
+            <a href="register.jsp" target="_blank" id="register">회원가입 </a>
+            <a href="#" id="forgot"> 비밀번호찾기 </a>
+        </form>
+        </center>
+        <br><br>
+    </div>
+<div class="info">
+    <div id="aside-list">
+        <center><h5 class="w3-text-brown"><b>- 즐겨찾기 -</b></h5></center>
+        <!-- 문서간의 이동 -->
+            <ul>
+                <li><a href="http://www.donga.ac.kr" target="_blank">DongA University</a></li><br>
+                <li><a href="http://www.naver.com" target="_self">NAVER</a></li><br>
+                <li><a href="https://www.w3schools.com/default.asp">W3SCHOOLS</a></li><br>
+                <li><a href="https://library.busan.go.kr/portal/index.do">Busan Library</a></li><br>
+            </ul>
+    </div>
+</div>
+</aside>
+<div style="line-height:8000%">
+<br>
+</div>
+
+<footer class="w3-gray w3-text-white">
+    <div class="w3-row"> <!-- grid 를 이용하여 작성하였음  -->
+        <div class="w3-col s4  w3-container" >
+            <h5> Contact </h5>
+            <ul>
+                <li>Phone - 010 4854 9173</li>
+                <li>Email - <a href="mailto:kaj0529@naver.com" title="Email Us">kaj0529@naver.com</a></li>
+                <li><a href="https://kwonajin.github.io/withAjin/">https://kwonajin.github.io/withAjin/</a></li>
+            </ul>
+                
+        </div>
+        <div class="w3-col s4  w3-container" >
+            <h5> SNS </h5>
+            <a href="http://qr.kakao.com/talk/xbzb9HOZB2cPzfLkzEfQkOZNx74-"><i class="fa fa-comment-o" style="font-size:28px;color:white"></i></a>
+            <a href="https://twitter.com/Alway_in_Winter"><i class="fa fa-twitter" style="font-size:28px;color:white"></i></a>
+            <a href="https://www.instagram.com/kwonajin_/"><i class="fa fa-instagram" style="font-size:28px;color:white"></i></a>
+            <br/><br/>
+            Copyright &copy; 2021 kwonajin <br/>
+        </div>
+        <div class="w3-col s4 w3-container" >
+            <h5>About</h5>
+            This is a site to introduce Ajin Kwon.
+                <a href="#" class="btn btn-block btn-base btn-icon fa fa-home"><span> home</span></a>
+                
+        </div>
+    </div>
+</footer>
+</body>
+</html>
